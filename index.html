@@ -13,10 +13,37 @@
                 <li><a href="#">Start</a></li>
                 <li><a href="#">Spenden</a></li>
                 <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Social Media</a></li>
             </ul>
         </nav>
+    
         <h1>Willkommen beim Kleiderspenden-Portal</h1>
     </header>
+    <section>
+        <h2>Kleiderspende registrieren</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="adresse">Abholadresse:</label>
+            <input type="text" id="adresse" name="adresse" required>
+            
+            <label for="kleiderart">Art der Kleidung:</label>
+            <select id="kleiderart" name="kleiderart">
+                <option>Jacken</option>
+                <option>Hosen</option>
+                <option>Hemden</option>
+            </select>
+            
+            <label for="krisengebiet">Krisengebiet:</label>
+            <select id="krisengebiet" name="krisengebiet">
+                <option>Region A</option>
+                <option>Region B</option>
+            </select>
+            
+            <button type="submit">Spende abschicken</button>
+        </form>
+    </section>
     <footer>
         <p>Impressum</p>
         <p>Datenschutz</p>
